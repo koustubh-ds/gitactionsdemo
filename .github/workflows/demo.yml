@@ -29,6 +29,9 @@ jobs:
               f.write(data + '\n')
           'EOF'
 
+      - name: 24ds2000134@ds.study.iitm.ac.in
+        run: echo "hello world"
+
       - name: Commit and push changes
         run: | # shell
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
